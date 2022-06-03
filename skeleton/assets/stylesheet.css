@@ -1,0 +1,53 @@
+body { 
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.ingredients-list {
+    list-style: square inside;
+}
+
+ol {
+    list-style: decimal inside;
+}
+
+ol li:nth-of-type(2n) { 
+    background-color: whitesmoke;
+    }
+
+header > img {
+    width: 100px;
+}
+
+* {
+    background-color: azure;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: circle inside;
+}
+
+input[type='radio'], select, input[type=submit] { 
+    cursor: pointer;
+    outline: none; 
+}
+
+input[type='radio']:last-child {
+    background-color: gold;
+}
+
+input:last-child{background:gold}
+
+input:last-child:hover{-webkit-filter:brightness(90%)}
